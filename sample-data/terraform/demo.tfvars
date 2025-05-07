@@ -1,16 +1,16 @@
-project             = "<PROJECT_ID>"
+project             = "altostrat-aef-demo"
 region              = "us-central1"
 
 dataform_repositories = {
   sample-repo-1 = {
-    remote_repo_url = "<GITHUB_DATAFORM_REPOSITORY>"
+    remote_repo_url = "https://github.com/CYarros10/dataform-repo.git"
   }
 }
 
-sample_connection_project = "<PROJECT_ID>"
+sample_connection_project = "altostrat-aef-demo"
 sample_connection_region = "us-central1"
 
-sample_data_bucket_project = "<PROJECT_ID>"
+sample_data_bucket_project = "altostrat-aef-demo"
 sample_data_bucket_region = "us-central1"
 sample_data_files = {
   "location" = {
@@ -36,9 +36,9 @@ sample_data_files = {
 }
 
 temp_data_bucket_region = "us-central1"
-temp_data_bucket_project = "<PROJECT_ID>"
+temp_data_bucket_project = "altostrat-aef-demo"
 
-sample_ddl_bucket_project  = "<PROJECT_ID>"
+sample_ddl_bucket_project  = "altostrat-aef-demo"
 sample_ddl_bucket_region = "us-central1"
 sample_ddl_files = {
   "sales" = {
